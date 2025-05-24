@@ -165,8 +165,6 @@ class Metro(object):
                 for lineas_start in self.transbordos[start]:
                     if lineas_start in self.transbordos[finish]:
                         lineas_en_comun.append(self.get_line(lineas_start))
-                    else:
-                        pass
             
                 if len(lineas_en_comun) >= 1 and lineas_en_comun != []:   
                 
